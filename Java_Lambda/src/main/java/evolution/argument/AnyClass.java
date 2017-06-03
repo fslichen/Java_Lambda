@@ -1,4 +1,4 @@
-package evolution.function.argument;
+package evolution.argument;
 
 import org.junit.Test;
 

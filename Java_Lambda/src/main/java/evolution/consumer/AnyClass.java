@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 import org.junit.Test;
 
 public class AnyClass {
-	// You don't need to define (Double x) because the type parameter Double 
+	// You don't need to define (Double x) because the type argument Double 
 	// is already defined in the parameterized type Consumer<Double>.
 	// A consumer accepts a value, and it does not have a return type.
 	Consumer<Double> consumer = x -> System.out.println(x.doubleValue());

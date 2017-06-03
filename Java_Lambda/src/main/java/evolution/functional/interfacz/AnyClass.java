@@ -33,7 +33,7 @@ public class AnyClass {
 		System.out.println(result);
 		result = anyClass.run(3.14, 6.28, (Double x0, Double x1) -> x0 / x1);// The method name is omitted using lambda because there is only one method in the functional interface.
 		System.out.println(result);
-		result = anyClass.run(3.14, 6.28, (x0, x1) -> x0 / x1);// The type can also be omitted because the type parameter Double is already defined in the parameterized type AnyInterface<Double>.
+		result = anyClass.run(3.14, 6.28, (x0, x1) -> x0 / x1);// The type can also be omitted because the type argument Double is already defined in the parameterized type AnyInterface<Double>.
 		System.out.println(result);
 	}
 }
